@@ -1,0 +1,17 @@
+app/: This directory contains most of your application's code.
+    api/: This is where you define your GraphQL schema, resolvers, mutations, and types.
+        schema.py: Define your GraphQL schema here.
+        resolvers.py: Implement resolver functions for your queries and mutations.
+        mutations.py: Define your mutations and their resolvers.
+        **types/: Store your GraphQL types in separate files for better organization.
+    **models/: Store your data models (e.g., database models) in this directory.
+    **utils/: Put utility functions, validation logic, authentication, and other shared code here.
+    **tests/: Organize your test files to test different parts of your application.
+
+config/: Store configuration settings, including environment-specific configurations and logging settings.
+
+manage.py: A script for managing your GraphQL application, including running development servers and managing database migrations.
+
+requirements.txt: List your project dependencies.
+
+README.md: Include documentation for your project.
